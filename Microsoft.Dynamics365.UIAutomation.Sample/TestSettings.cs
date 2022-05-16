@@ -125,7 +125,7 @@ namespace Microsoft.Dynamics365.UIAutomation.Sample
     {
         public const string Sales = "Sales Hub";
         public const string CustomerService = "Customer Service Hub";
-        public const string Project = "Project Resource Hub";
-        public const string FieldService = "Field Resource Hub";
+        public const string Project = "Project Service";
+        public const string FieldService = "Field Service";
     }
 }
