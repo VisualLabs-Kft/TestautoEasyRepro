@@ -153,6 +153,7 @@
     <Compile Include="UCI\Update\UpdateLead.cs" />
     <Compile Include="UCI\Update\UpdateOpportunity.cs" />
     <Compile Include="VLTestCases\VLUCI\10819TestCase.cs" />
+    <Compile Include="VLTestCases\VLUCI\7683TestCase.cs" />
     <Compile Include="VLTestCases\VLUCI\VLsampleTest.cs" />
     <Compile Include="Web\BusinessProcessFlow\BusinessProcessFlow.cs" />
     <Compile Include="Web\CommandBar\CommandButton.cs" />
