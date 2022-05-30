@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+ï»¿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.Dynamics365.UIAutomation.Api.UCI;
 using Microsoft.Dynamics365.UIAutomation.Browser;
 using System;
@@ -38,10 +38,10 @@ namespace Microsoft.Dynamics365.UIAutomation.Sample.VLTestCases.VLUCI
 
                 LookupItem subject_field = new LookupItem { Name = "subject" };
                 xrmApp.Entity.SelectLookup(subject_field);
-                xrmApp.Lookup.Search(subject_field, "HFE leszerelés");
+                xrmApp.Lookup.Search(subject_field, "HFE leszerelÃ©s");
 
                 LookupItem casetype_field = new LookupItem { Name = "mpf_esettipus_kategoria" };
-                xrmApp.Lookup.Search(casetype_field, "HFE leszerelés");
+                xrmApp.Lookup.Search(casetype_field, "HFE leszerelÃ©s");
 
 
 
